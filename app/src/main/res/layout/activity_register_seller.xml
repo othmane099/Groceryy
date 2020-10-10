@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    tools:context=".RegisterSellerActivity">
+    tools:context=".activities.RegisterSellerActivity">
 
     <!-- toolbar-->
     <RelativeLayout
@@ -68,7 +68,6 @@
                 app:c_border_color="@color/colorPrimary"
                 app:c_border_width="1dp"
                 android:src="@drawable/ic_person_gray"/>
-<!--                android:layout_below="@+id/iconIv"-->
 
             <EditText
                 android:id="@+id/nameEt"
